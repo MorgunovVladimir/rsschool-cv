@@ -1,3 +1,3 @@
 Name: Vladimir Morgunov
 
-## Contacts
+Contacts: discord: Vladimir (@MorgunovVladimir); Telegram: https://t.me/VLMorgunov; github: MorgunovVladimir.
