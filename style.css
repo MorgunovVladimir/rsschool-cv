@@ -1,0 +1,19 @@
+.page-title {
+    text-align: center;
+    background-color: #829985;
+    margin: 0px 0px 0px 0px;
+    padding: 20px 0px 20px 0px;
+}
+
+.avatar {
+    position: relative;
+    min-height: 309px;
+    background-color: #829985;
+}
+
+.avatar img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
