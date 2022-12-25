@@ -1,0 +1,66 @@
+.page-title {
+    text-align: center;
+    background-color: #829985;
+    margin: 0px 0px 0px 0px;
+    padding: 20px 0px 20px 0px;
+}
+
+.avatar {
+    position: relative;
+    min-height: 309px;
+    background-color: #829985;
+}
+
+.avatar img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.section-list{
+    list-style: none;
+    padding: 0;
+}
+ 
+.section-item {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.section-item::before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.section-item:nth-child(1)::before {
+    background-image: url("assets/img/1.svg");
+}
+.section-item:nth-child(2)::before {
+    background-image: url("assets/img/2.svg");
+}
+.section-item:nth-child(3)::before {
+    background-image: url("assets/img/3.svg");
+}
+.section-item:nth-child(4)::before {
+    background-image: url("assets/img/4.svg");
+}
+.section-item:nth-child(5)::before {
+    background-image: url("assets/img/5.svg");
+}
+
+.example {
+    border: 3px solid #111;
+    background-color: tomato;
+}
+
+.rss {
+    background-image: url("assets/img/rs_school_js.svg");
+}
