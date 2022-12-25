@@ -55,3 +55,12 @@
 .section-item:nth-child(5)::before {
     background-image: url("assets/img/5.svg");
 }
+
+.example {
+    border: 3px solid #111;
+    background-color: tomato;
+}
+
+.rss {
+    background-image: url("assets/img/rs_school_js.svg");
+}
