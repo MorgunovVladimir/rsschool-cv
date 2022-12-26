@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .page-title {
     text-align: center;
     background-color: #829985;
@@ -40,27 +44,49 @@
     background-repeat: no-repeat;
 }
 
-.section-item:nth-child(1)::before {
+.contacts-item:nth-child(1)::before {
     background-image: url("assets/img/1.svg");
 }
-.section-item:nth-child(2)::before {
+.contacts-item:nth-child(2)::before {
     background-image: url("assets/img/2.svg");
 }
-.section-item:nth-child(3)::before {
+.contacts-item:nth-child(3)::before {
     background-image: url("assets/img/3.svg");
 }
-.section-item:nth-child(4)::before {
+.contacts-item:nth-child(4)::before {
     background-image: url("assets/img/4.svg");
 }
-.section-item:nth-child(5)::before {
+.contacts-item:nth-child(5)::before {
     background-image: url("assets/img/5.svg");
 }
+
+.skills-item:nth-child(1)::before {
+    background-image: url("assets/img/icons8-html-5.svg");
+}
+.skills-item:nth-child(2)::before {
+    background-image: url("assets/img/icons8-css3.svg");
+}
+.skills-item:nth-child(3)::before {
+    background-image: url("assets/img/icons8-git.svg");
+}
+.skills-item:nth-child(4)::before {
+    background-image: url("assets/img/icons8-visual-studio-code-2019.svg");
+}
+.skills-item:nth-child(5)::before {
+    background-image: url("assets/img/icons8-javascript.svg");
+}
+
+
 
 .example {
     border: 3px solid #111;
     background-color: tomato;
 }
 
-.rss {
-    background-image: url("assets/img/rs_school_js.svg");
+.footer {
+    background-color: #829985;
+}
+
+.footer-container {
+    margin-right: auto;
 }
