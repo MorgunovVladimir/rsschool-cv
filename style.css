@@ -1,36 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #3d2b1f;
+}
+
+header {
+    background-color: #465945;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.avatar {
+    padding: 10px;
 }
 
 main {
     margin: 10px;
 }
 
-.page-title {
-    text-align: center;
-    background-color: #829985;
-    margin: 0px 0px 0px 0px;
-    padding: 20px 0px 20px 0px;
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.avatar {
-    position: relative;
-    min-height: 309px;
-    background-color: #829985;
+.profile-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.avatar img {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
+.section {
+    border-bottom: 1px solid #465945;
+    width: 45%;
 }
 
-.section-list{
+.pre {
+    padding: 0;
+    margin: 0;
+  }
+  
+.section-list {
     list-style: none;
     padding: 0;
 }
- 
+
 .section-item {
     position: relative;
     padding-left: 30px;
@@ -48,34 +85,46 @@ main {
     background-repeat: no-repeat;
 }
 
+.contacts-item a {
+    text-decoration: none;
+}
+
 .contacts-item:nth-child(1)::before {
-    background-image: url("assets/img/1.svg");
+    background-image: url("assets/img/kisspng-geolocation-symbol-computer-icons-encapsulated-pos-5ae4eb52aa61b7.4649234415249518906979.png");
 }
+
 .contacts-item:nth-child(2)::before {
-    background-image: url("assets/img/2.svg");
+    background-image: url("assets/img/icons8-сообщение-32.png");
 }
+
 .contacts-item:nth-child(3)::before {
-    background-image: url("assets/img/3.svg");
+    background-image: url("assets/img/icons8-github-32.png");
 }
+
 .contacts-item:nth-child(4)::before {
-    background-image: url("assets/img/4.svg");
+    background-image: url("assets/img/icons8-телеграмма-app-32.png");
 }
+
 .contacts-item:nth-child(5)::before {
-    background-image: url("assets/img/5.svg");
+    background-image: url("assets/img/icons8-discord-32.png");
 }
 
 .skills-item:nth-child(1)::before {
     background-image: url("assets/img/icons8-html-5.svg");
 }
+
 .skills-item:nth-child(2)::before {
     background-image: url("assets/img/icons8-css3.svg");
 }
+
 .skills-item:nth-child(3)::before {
     background-image: url("assets/img/icons8-git.svg");
 }
+
 .skills-item:nth-child(4)::before {
     background-image: url("assets/img/icons8-visual-studio-code-2019.svg");
 }
+
 .skills-item:nth-child(5)::before {
     background-image: url("assets/img/icons8-javascript.svg");
 }
@@ -89,5 +138,19 @@ main {
 }
 
 footer {
-    background-color: #829985;
+    background-color: #465945;
+    color: #000;
+    font-weight: bold;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+#education,
+#languages {
+    border-bottom: 0;
 }
