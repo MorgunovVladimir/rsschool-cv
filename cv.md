@@ -19,3 +19,17 @@ My name is Vladimir. I am 33 years old. I have no experience in programming. Stu
 - Git, Github
 - Vs Code
 - Javascript Basics (in progress)
+
+---
+
+## __Education__ 
+- __University:__ Volgograd State University of Architecture and Civil Engineering
+- __Courses:__
+  - JavaScript/Frontend Pre-School 2022Q3
+  - JavaScript/Frontend 2023Q1 (in progress)
+
+---
+
+## __Languages__
+- Russian - Native
+- English - B1 - Pre-Intermediate
